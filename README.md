@@ -6,15 +6,15 @@ The game consists of students that can move between classrooms and doctor's offi
 
 Here is a description of the commands and their input values:
 
-"m ID x y"
+m ID x y
 
     "move": command Student ID to move to location (x, y)
 
-"d ID1 ID2"
+d ID1 ID2
 
     "move towards a DoctorsOffice": command Student ID1 to start heading to DoctorsOffice ID2.
 
-"c ID1 ID2"
+c ID1 ID2
 
     "move towards a Classroom": command Student ID1 to start heading towards ClassRoom ID2.
 
@@ -22,7 +22,7 @@ s ID
 
     "stop": command Student ID to stop doing whatever it is doing
 
-"v ID vaccine_amount"
+v ID vaccine_amount
 
     "buy vaccines": command StudentID to buy vaccine_amount of vaccines at a DoctorsOffice.
 
