@@ -10,34 +10,34 @@ Here is a description of the commands and their input values:
 
 "move": command Student ID to move to location (x, y)
 
-d ID1 ID2
+    d ID1 ID2
 
-    "move towards a DoctorsOffice": command Student ID1 to start heading to DoctorsOffice ID2.
+"move towards a DoctorsOffice": command Student ID1 to start heading to DoctorsOffice ID2.
 
-c ID1 ID2
+    c ID1 ID2
 
-    "move towards a Classroom": command Student ID1 to start heading towards ClassRoom ID2.
+"move towards a Classroom": command Student ID1 to start heading towards ClassRoom ID2.
 
-s ID
+    s ID
 
-    "stop": command Student ID to stop doing whatever it is doing
+"stop": command Student ID to stop doing whatever it is doing
 
-v ID vaccine_amount
+    v ID vaccine_amount
 
-    "buy vaccines": command StudentID to buy vaccine_amount of vaccines at a DoctorsOffice.
+"buy vaccines": command StudentID to buy vaccine_amount of vaccines at a DoctorsOffice.
 
-a ID assignment_amount
+    a ID assignment_amount
 
-    "complete assignment_amount assignments at a ClassRoom": command Student ID to complete assignment_amount of training units at a ClassRoom.
+"complete assignment_amount assignments at a ClassRoom": command Student ID to complete assignment_amount of training units at a ClassRoom.
 
-g
+    g
 
-    "go": advance one-time step by updating each object once.
+"go": advance one-time step by updating each object once.
 
-r
+    r
 
-    "run": advance one-time step and update each object, and repeat until either the update function returns true for at least one of the objects, or 5 time steps have been done.
+"run": advance one-time step and update each object, and repeat until either the update function returns true for at least one of the objects, or 5 time steps have been done.
 
-q
+    q
 
-    "quit": terminate the program
+"quit": terminate the program
