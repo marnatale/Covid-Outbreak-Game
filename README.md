@@ -6,9 +6,9 @@ The game consists of students that can move between classrooms and doctor's offi
 
 Here is a description of the commands and their input values:
 
-m ID x y
+    m ID x y
 
-    "move": command Student ID to move to location (x, y)
+"move": command Student ID to move to location (x, y)
 
 d ID1 ID2
 
